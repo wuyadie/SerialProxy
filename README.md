@@ -1,6 +1,13 @@
 <img src="https://cdn.antratek.nl/media/product/68a/usb-host-cable-for-teensy-3-6-and-teensy-4-1-cable-usb-host-t36-dc0.jpg" width="200" align="right" />
 
 # SerialProxy
+<a href="https://github.com/earthlion/SerialProxy/stargazers"><img src="https://img.shields.io/github/stars/earthlion/SerialProxy" alt="Stars Badge"/></a>
+<a href="https://github.com/earthlion/SerialProxy/network/members"><img src="https://img.shields.io/github/forks/earthlion/SerialProxy" alt="Forks Badge"/></a>
+<a href="https://github.com/earthlion/SerialProxy/pulls"><img src="https://img.shields.io/github/issues-pr/earthlion/SerialProxy" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/earthlion/SerialProxy/issues"><img src="https://img.shields.io/github/issues/earthlion/SerialProxy" alt="Issues Badge"/></a>
+<a href="https://github.com/earthlion/SerialProxy/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/earthlion/SerialProxy?color=2b9348"></a>
+<a href="https://github.com/earthlion/SerialProxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/earthlion/SerialProxy?color=2b9348" alt="License Badge"/></a>
+
 SerialProxy is a complete MITM solution for **modifying 🖱️ mouse & ⌨️ keyboard input against highly sophisticated anti-cheats (ESEA/Faceit/Vanguard/...)**. 
 This .NET Core package provides convenient access to the **Teensy 4.1 interface** to get/set proper input values over the provided USB Host Shield.
 
