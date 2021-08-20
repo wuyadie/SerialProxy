@@ -1,4 +1,4 @@
-<img src="https://cdn.antratek.nl/media/product/68a/usb-host-cable-for-teensy-3-6-and-teensy-4-1-cable-usb-host-t36-dc0.jpg" width="150" align="right" />
+<img src="https://cdn.antratek.nl/media/product/68a/usb-host-cable-for-teensy-3-6-and-teensy-4-1-cable-usb-host-t36-dc0.jpg" width="300" align="right" />
 
 # SerialProxy
 SerialProxy is a complete MITM solution for **modifying mouse & keyboard input against highly sophisticated anti-cheats (ESEA/Faceit/Vanguard/...)**. 
