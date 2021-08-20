@@ -9,7 +9,7 @@
 <a href="https://github.com/earthlion/SerialProxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/earthlion/SerialProxy?color=2b9348" alt="License Badge"/></a>
 
 SerialProxy is a complete MITM solution for **modifying 🖱️ mouse & ⌨️ keyboard input against highly sophisticated anti-cheats (ESEA/Faceit/Vanguard/...)**. 
-This .NET Core package provides convenient access to the **Teensy 4.1 interface** to get/set proper input values over the provided USB Host Shield.
+<br/>This .NET Core package provides convenient access to the **Teensy 4.1 interface** to get/set proper input values over the provided USB Host Shield.
 
 ```
     --------------------                 --------------                    ------------
