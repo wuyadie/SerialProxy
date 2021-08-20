@@ -1,9 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>SerialProxy</AssemblyName>
     <RootNamespace>SerialProxy</RootNamespace>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.1</TargetFrameworks>
+    <ReleaseVersion>1.x</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>serialproxy-csharp</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Earthlion</Authors>
+    <Copyright>© 2021 Earthlion</Copyright>
+    <PackageIconUrl>https://cdn.antratek.nl/media/product/68a/usb-host-cable-for-teensy-3-6-and-teensy-4-1-cable-usb-host-t36-dc0.jpg</PackageIconUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/earthlion/SerialProxy/blob/main/LICENSE</PackageLicenseUrl>
+    <Owners>Earthlion</Owners>
+    <PackageProjectUrl>https://github.com/earthlion/SerialProxy</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/earthlion/SerialProxy</RepositoryUrl>
+    <PackageReleaseNotes>https://netlicensing.io/wiki/changelog</PackageReleaseNotes>
+    <Summary>MITM solution for modifying 🖱️ mouse & ⌨️ keyboard input</Summary>
+    <PackageTags>keyboard arduino teensy usb proxy host mouse shield anti-cheat vanguard faceit esea</PackageTags>
+    <Title>SerialProxy</Title>
+    <Description>SerialProxy is a complete MITM solution for modifying 🖱️ mouse & ⌨️ keyboard input against highly sophisticated anti-cheats.  This .NET Core package provides convenient access to the Teensy 4.1 interface to get/set proper input values over the provided USB Host Shield.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
