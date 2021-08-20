@@ -15,10 +15,11 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
 ```
 An optional second PC can be used against memory analysis by any anticheat.
 
-Preparation: Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
-1) Override Arduino files (USB Mode Modification + Keyboard Interception)
-2) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
-3) Modify input signal using .NET Core Library
+Preparation:
+1) Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
+2) Override Arduino files (USB Mode Modification + Keyboard Interception)
+3) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
+4) Modify input signal using .NET Core Library
 
 # Features
 - Set Mouse Cursor Position (Relative X,Y)
