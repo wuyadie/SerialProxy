@@ -39,11 +39,8 @@ catch (Exception)
     return;
 }
 
-if (serial != null)
-{
-    Mouse = new SerialProxy.Mouse(serial);
-    Keyboard = new SerialProxy.Keyboard(serial);
-}
+Mouse = new SerialProxy.Mouse(serial);
+Keyboard = new SerialProxy.Keyboard(serial);
 
 // Modify fake mouse
 Mouse.SetMousePos(0, -10);
