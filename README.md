@@ -45,7 +45,6 @@ try
 {
     serial = new DotNetSerialAdaptor(serialPort);
     Console.Error.WriteLine($"Arduino connected successfully on port {serialPort}");
-
 }
 catch (Exception)
 {
