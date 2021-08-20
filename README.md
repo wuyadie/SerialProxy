@@ -14,6 +14,12 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
                                                               -------------------------
 ```
 
+Tutorial:
+Preparation: Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
+1) Override Arduino files
+2) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
+3) Modify input signal using .NET Core Library
+
 # Features
 - Set Mouse Cursor Position (Relative X,Y)
 - Set Mouse Scroll (Relative Y)
@@ -53,6 +59,7 @@ If you have any questions, feel free to open an issue on Github.
 
 # Credits
 🧍 [Me](https://github.com/earthlion) - API<br/>
+🧍 [mysnphit](https://www.unknowncheats.me/forum/members/165040.html) - Base<br/>
 
 # License
 This project is released under MIT License. Please refer the LICENSE.txt for more details.
