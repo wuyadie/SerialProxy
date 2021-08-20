@@ -21,7 +21,6 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
                                                               -------------------------
 ```
 An optional second PC can be used against memory analysis by any anticheat.
-<br/>Check the [Teensy Board for compatible usb hubs](https://forum.pjrc.com/).
 
 # Features
 - Set Mouse Cursor Position (Relative X,Y)
@@ -36,6 +35,9 @@ Preparation:
 2) Override Arduino files (USB Mode Modification + Keyboard Interception)
 3) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
 4) Modify input signal using .NET Core Library
+
+<br/>Check the [Teensy Board for compatible usb hubs](https://forum.pjrc.com/).
+Also works with just Mouse or Keyboard only.
 
 ```csharp
 string serialPort = "COM3";
