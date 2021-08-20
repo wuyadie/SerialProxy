@@ -15,7 +15,8 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
 ```
 
 Tutorial:
-Preparation: Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
+Preparation:
+Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
 1) Override Arduino files
 2) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
 3) Modify input signal using .NET Core Library
