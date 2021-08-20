@@ -25,7 +25,7 @@ Preparation: Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat
 - Set Mouse Scroll (Relative Y)
 - Set Mouse Press/Release (Left, Right, Middle, Back, Forward)
 - Set Keyboard Press/Release ([Keyboard Codes](https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2))
-- Get real Keyboard/Mouse Data (Being pressed on the real HID device)
+- Get realtime Keyboard/Mouse Data (Being pressed on the real HID device)
 
 # Quickstart Guide
 ```csharp
