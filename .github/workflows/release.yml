@@ -1,8 +1,8 @@
-name: Nuget
+name: SerialProxy C# Client - Release
 
 on:
   workflow_run:
-    workflows: ["Nuget"]
+    workflows: ["SerialProxy C# Client - CI"]
     branches: [ master ]
     types:
       - completed
