@@ -21,7 +21,7 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
                                                               -------------------------
 ```
 An optional second PC can be used against memory analysis by any anticheat.
-<br/>Check teensy forum for compatible usb hubs.
+<br/>Check the [Teensy Board for compatible usb hubs](https://forum.pjrc.com/).
 
 # Features
 - Set Mouse Cursor Position (Relative X,Y)
