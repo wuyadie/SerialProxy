@@ -1,29 +1,33 @@
-name: Nuget Release
-
+name: publish to nuget
 on:
-  workflow_run:
-    workflows: [".NET"]
-    branches: [ master ]
-    types:
-      - completed
-
+  push:
+    branches:
+      - master # Default release branch
 jobs:
-  publish-nuget:
+  publish:
+    name: build, pack & publish
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 5.0.x
-    - name: Install dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --configuration Release --no-restore
-    - name: Publish to NuGet
-      uses: brandedoutcast/publish-nuget@v2
-      with:
-        PROJECT_FILE_PATH: SerialProxy/SerialProxy.csproj
-        VERSION_REGEX: '^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$'
-        TAG_FORMAT: '*'
-        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+      - uses: actions/checkout@v2
+
+      # - name: Setup dotnet
+      #   uses: actions/setup-dotnet@v1
+      #   with:
+      #     dotnet-version: 3.1.200
+
+      # Publish
+      - name: publish on version change
+        id: publish_nuget
+        uses: rohith/publish-nuget@v2
+        with:
+          # Filepath of the project to be packaged, relative to root of repository
+          PROJECT_FILE_PATH: SerialProxy/SerialProxy.csproj
+          
+          # NuGet package id, used for version detection & defaults to project name
+          PACKAGE_NAME: SerialProxy
+          
+          # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
+          VERSION_STATIC: 1.0.0
+
+          # API key to authenticate with NuGet server
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
