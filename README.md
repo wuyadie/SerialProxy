@@ -36,9 +36,6 @@ Preparation:
 3) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
 4) Modify input signal using .NET Core Library
 
-<br/>Check the [Teensy Board for compatible usb hubs](https://forum.pjrc.com/).
-Also works with just Mouse or Keyboard only.
-
 ```csharp
 string serialPort = "COM3";
 
