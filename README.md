@@ -57,6 +57,8 @@ Mouse.SetMousePos(0, -10);
 All examples can be found in the [testing project](https://github.com/earthlion/SerialProxy/blob/main/SerialProxy.Test/Program.cs).
 If you have any questions, feel free to open an issue on Github.
 
+[Nuget Package](https://www.nuget.org/packages/SerialProxy/)
+
 # Credits
 🧍 [Me](https://github.com/earthlion) - API<br/>
 🧍 [mysnphit](https://www.unknowncheats.me/forum/members/165040.html) - Base<br/>
