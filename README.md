@@ -13,6 +13,7 @@ This .NET Core package provides convenient access to the **Teensy 4.1 interface*
                                                ---[SERIAL]--- | USB To SERIAL Adapter |
                                                               -------------------------
 ```
+An optional second PC can be used against memory analysis by any anticheat.
 
 Preparation: Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
 1) Override Arduino files (USB Mode Modification + Keyboard Interception)
