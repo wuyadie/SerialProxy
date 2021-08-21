@@ -24,7 +24,7 @@ An optional second PC can be used to circumvent any memory analysis by any antic
 
 # Quickstart Guide
 Preparation:
-1) Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html)
+1) Check this [Tutorial](https://www.unknowncheats.me/forum/anti-cheat-bypass/439183-mouse-proxy-teensy-4-1-a.html) in order to build your Arduino
 2) Override Arduino files (USB Mode Modification + Keyboard Interception)
 3) Select "Logitech USB Receiver" in Arduino IDE, Paste *.ino script, flash it
 4) Modify input signal using .NET Core Library
