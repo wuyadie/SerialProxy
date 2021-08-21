@@ -58,6 +58,12 @@ namespace SerialProxy.Test
                 //if(keyboardState != 0)
                 //    Console.WriteLine($"Keyboard State: {keyboardState}");
 
+                //var modifier = Keyboard.GetKeyboardModifier()
+                //var pressedKeys = Keyboard.GetKeyboardKeys()
+                //Keyboard.SetKeyboardPress(0x04)
+                //Keyboard.SetKeyboardRelease(0x04)
+                //Keyboard.KeyboardReleaseAll()
+
                 System.Threading.Thread.Sleep(100);
             }
         }
